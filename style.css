@@ -133,3 +133,45 @@ footer {
     grid-column: 1 / -1;
     object-position: center 30%;
     }
+    
+    @media (max-width: 768px) {
+
+    header {
+        height: auto;
+        padding: 15px;
+    }
+
+    header img {
+        height: 5rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    main {
+        width: 100%;
+        grid-template-columns: 100%;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+}
